@@ -454,8 +454,8 @@ namespace DataBase
                 swExportWriter.WriteLine("Выручка за этот же период:");
                 //Добавть select по выручке
                 swExportWriter.WriteLine("Форму утвердил Совет Директоров компании:");
-                swExportWriter.WriteLine("Вуксанович С. М. Могилевцев А. А.");
-                swExportWriter.WriteLine("Гаврюшин А. В. Савченко Д. С.");
+                swExportWriter.WriteLine("Вуксанович С. М. Зыков В. А.");
+                swExportWriter.WriteLine("Гаврюшин А. В. Борисов С. П. Ефанова К. В.");
                 swExportWriter.Close();
                 con.Close();
                 MessageBox.Show("Файл успешно записан");
